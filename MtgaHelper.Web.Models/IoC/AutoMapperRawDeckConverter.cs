@@ -8,8 +8,8 @@ namespace MTGAHelper.Web.UI.Shared
 {
     public class AutoMapperRawDeckConverter : ITypeConverter<Dictionary<int, int>, ICollection<CardWithAmountDto>>
     {
-        Dictionary<int, Card> allCards;
-        RawDeckConverter converter;
+        readonly Dictionary<int, Card> allCards;
+        readonly RawDeckConverter converter;
 
         public AutoMapperRawDeckConverter(CacheSingleton<Dictionary<int, Card>> cacheCards, RawDeckConverter converter)
         {

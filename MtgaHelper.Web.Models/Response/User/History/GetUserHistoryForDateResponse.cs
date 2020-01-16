@@ -2,7 +2,6 @@
 using MTGAHelper.Entity;
 using MTGAHelper.Entity.UserHistory;
 using MTGAHelper.Lib.IO.Reader.MtgaOutputLog;
-using MTGAHelper.Lib.UserHistory;
 using MTGAHelper.Web.Models.Response.User.History;
 using MTGAHelper.Web.Models.SharedDto;
 using MTGAHelper.Web.UI.Model.Response.User.History;
@@ -15,7 +14,7 @@ namespace MTGAHelper.Web.Model.Response.User.History
 {
     public class GetUserHistoryForDateResponse
     {
-        DateTime dateNewHistory = new DateTime(2019, 11, 18);
+        readonly DateTime dateNewHistory = new DateTime(2019, 11, 18);
 
         public GetUserHistoryForDateResponseData History2 { get; set; }
 

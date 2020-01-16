@@ -8,7 +8,6 @@ using MTGAHelper.Lib.Cache;
 using MTGAHelper.Lib.CollectionDecksCompare;
 using MTGAHelper.Lib.Config.Users;
 using MTGAHelper.Lib.IO.Reader.MtgaOutputLog;
-using MTGAHelper.Lib.UserHistory;
 using MTGAHelper.Web.Models;
 using MTGAHelper.Web.Models.Response.Account;
 using MTGAHelper.Web.Models.Response.User;

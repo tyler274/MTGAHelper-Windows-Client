@@ -1,12 +1,5 @@
-﻿using AutoMapper;
-using MTGAHelper.Entity;
-using MTGAHelper.Lib.UserHistory;
-using MTGAHelper.Web.UI.Model.SharedDto;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using MTGAHelper.Lib;
-using MTGAHelper.Entity.UserHistory;
 using MTGAHelper.Web.Models.SharedDto;
 
 namespace MTGAHelper.Web.UI.Model.Response.User.History

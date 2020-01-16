@@ -10,8 +10,8 @@ namespace MTGAHelper.Web.UI.Shared
 {
     public class AutoMapperRawDeckToColorConverter : IValueConverter<ConfigModelRawDeck, string>
     {
-        Dictionary<int, Card> dictAllCards;
-        UtilColors utilColors;
+        readonly Dictionary<int, Card> dictAllCards;
+        readonly UtilColors utilColors;
 
         public AutoMapperRawDeckToColorConverter(CacheSingleton<Dictionary<int, Card>> cacheCards, UtilColors utilColors)
         {

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using AutoMapper;
+﻿using AutoMapper;
 using MTGAHelper.Lib.IO.Reader.MtgaOutputLog;
 using MTGAHelper.Web.UI.Model.Response.User.History;
 

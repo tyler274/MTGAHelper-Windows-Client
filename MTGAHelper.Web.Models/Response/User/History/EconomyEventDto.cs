@@ -1,7 +1,6 @@
 ﻿using MTGAHelper.Web.UI.Model.SharedDto;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace MTGAHelper.Web.Models.Response.User.History
 {

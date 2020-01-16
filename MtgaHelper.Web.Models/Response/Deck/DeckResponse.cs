@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using MTGAHelper.Entity;
-using MTGAHelper.Lib;
 using MTGAHelper.Lib.Model;
 using MTGAHelper.Web.Models;
 using MTGAHelper.Web.UI.Model.Response.Dto;

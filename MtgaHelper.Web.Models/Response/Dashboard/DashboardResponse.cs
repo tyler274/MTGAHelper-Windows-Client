@@ -1,7 +1,5 @@
 ﻿using AutoMapper;
-using MTGAHelper.Entity;
 using MTGAHelper.Lib;
-using MTGAHelper.Lib.CollectionDecksCompare;
 using System.Collections.Generic;
 using System.Linq;
 

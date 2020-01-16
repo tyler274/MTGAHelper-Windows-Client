@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using AutoMapper;
 using MTGAHelper.Entity.MtgaDeckStats;
-using MTGAHelper.Web.UI.Model.Response.User.History;
 
 namespace MTGAHelper.Web.Models.Response.User
 {

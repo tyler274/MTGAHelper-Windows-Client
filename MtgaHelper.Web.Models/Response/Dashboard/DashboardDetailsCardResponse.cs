@@ -1,5 +1,4 @@
 ﻿using MTGAHelper.Entity;
-using MTGAHelper.Lib.Cache;
 using MTGAHelper.Lib.CollectionDecksCompare;
 using MTGAHelper.Lib.Config;
 using Serilog;

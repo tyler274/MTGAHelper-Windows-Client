@@ -1,5 +1,4 @@
-﻿using MTGAHelper.Entity;
-using MTGAHelper.Lib.Config;
+﻿using MTGAHelper.Lib.Config;
 using MTGAHelper.Web.UI.Model.Response.Dto;
 using System.Collections.Generic;
 using System.Linq;

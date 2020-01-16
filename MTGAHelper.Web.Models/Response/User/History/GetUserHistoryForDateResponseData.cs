@@ -1,13 +1,11 @@
 ﻿using AutoMapper;
 using MTGAHelper.Lib.IO.Reader.MtgaOutputLog;
-using MTGAHelper.Lib.UserHistory;
 using MTGAHelper.Web.Models.SharedDto;
 using MTGAHelper.Web.UI.Model.Response.User.History;
 using MTGAHelper.Web.UI.Model.SharedDto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace MTGAHelper.Web.Models.Response.User.History
 {

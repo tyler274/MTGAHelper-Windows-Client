@@ -1,11 +1,7 @@
 ﻿using AutoMapper;
-using MTGAHelper.Entity;
-using MTGAHelper.Lib.UserHistory;
-using MTGAHelper.Web.UI.Model.SharedDto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using MTGAHelper.Lib;
 using MTGAHelper.Entity.UserHistory;
 using System.Text.RegularExpressions;
 using MTGAHelper.Web.Models.SharedDto;
@@ -14,14 +10,14 @@ namespace MTGAHelper.Web.UI.Model.Response.User.History
 {
     public class GetUserHistorySummaryResponse
     {
-        Regex regex_Rank_StringParts = new Regex(@"^(.*?)_(.*?)_(.*?)$", RegexOptions.Compiled);
+        readonly Regex regex_Rank_StringParts = new Regex(@"^(.*?)_(.*?)_(.*?)$", RegexOptions.Compiled);
 
         //public ICollection<GetUserHistorySummaryDto> History { get; set; }
         public ICollection<GetUserHistorySummaryDto> History2 { get; set; }
 
         public int TotalItems { get; set; }
 
-        DateTime dateNewHistory = new DateTime(2019, 11, 18);
+        readonly DateTime dateNewHistory = new DateTime(2019, 11, 18);
 
         //public GetUserHistoryResponse(ICollection<DateSnapshot> details)
         //{

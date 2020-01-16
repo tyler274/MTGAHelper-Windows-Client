@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using MTGAHelper.Entity;
 
 namespace MTGAHelper.Web.UI.Model.Response.User

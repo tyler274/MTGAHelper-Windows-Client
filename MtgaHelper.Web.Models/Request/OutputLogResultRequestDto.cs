@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MTGAHelper.Web.Models.Request
+﻿namespace MTGAHelper.Web.Models.Request
 {
     public class OutputLogResultRequestDto
     {

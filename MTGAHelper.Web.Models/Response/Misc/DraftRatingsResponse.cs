@@ -1,10 +1,5 @@
-﻿using AutoMapper;
-using MTGAHelper.Entity;
-using MTGAHelper.Web.Models.SharedDto;
-using MTGAHelper.Web.UI.Model.SharedDto;
-using System;
+﻿using MTGAHelper.Entity;
 using System.Collections.Generic;
-using System.Text;
 
 namespace MTGAHelper.Web.Models.Response.Misc
 {

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MTGAHelper.Web.Models.Response.SharedDto
+﻿namespace MTGAHelper.Web.Models.Response.SharedDto
 {
     public class LastHashResponse
     {

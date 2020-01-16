@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MTGAHelper.Web.Models.Response.Account
+﻿namespace MTGAHelper.Web.Models.Response.Account
 {
     public enum ResponseStatusEnum
     {
