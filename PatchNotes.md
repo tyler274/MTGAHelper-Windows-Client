@@ -1,4 +1,6 @@
-### v1.3.8 (Coming up)
+### v1.3.8 (2020-01-16)
+
+THB Update
 
 New Draft Ratings source: Deathsie
 
